@@ -7,6 +7,6 @@ def get_multiplied_digits(number):
     remaining_number = int(str_number[1:])
     if remaining_number == 0:
         return first
-    return first * get_multiplied_digits(remaining_number)
+        return first * get_multiplied_digits(remaining_number)
 result = get_multiplied_digits(304000)
 print(result)
